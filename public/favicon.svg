@@ -1,0 +1,19 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <rect width="64" height="64" rx="12" fill="#1a1a1a"/>
+
+  <!-- Gold border -->
+  <rect x="2" y="2" width="60" height="60" rx="10" fill="none" stroke="#d4a017" stroke-width="2"/>
+
+  <!-- Inner decorative border -->
+  <rect x="6" y="6" width="52" height="52" rx="8" fill="none" stroke="#d4a017" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- MZ Text -->
+  <text x="32" y="42" font-family="Georgia, serif" font-size="28" font-weight="bold" fill="#d4a017" text-anchor="middle" letter-spacing="2">MZ</text>
+
+  <!-- Decorative line above -->
+  <line x1="16" y1="14" x2="48" y2="14" stroke="#1a5f2a" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Decorative line below -->
+  <line x1="16" y1="50" x2="48" y2="50" stroke="#1a5f2a" stroke-width="2" stroke-linecap="round"/>
+</svg>

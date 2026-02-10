@@ -1,0 +1,12 @@
+# Allow PHP execution
+<Files "contact.php">
+    Order allow,deny
+    Allow from all
+</Files>
+
+# Enable error reporting (remove in production)
+php_flag display_errors off
+php_flag log_errors on
+
+# Set proper content type for PHP files
+AddType application/x-httpd-php .php

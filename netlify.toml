@@ -1,0 +1,12 @@
+[build]
+  command = "npm run build"
+  publish = ".next"
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
+
+# Environment variables (set via Netlify CLI or UI)
+# SMTP_HOST
+# SMTP_PORT
+# SMTP_USER
+# SMTP_PASSWORD
