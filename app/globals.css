@@ -88,10 +88,10 @@
   --color-bg-light: #f5f5f5;
   --color-bg-default: #e8e8e8;
 
-  /* Fonts - variables set by next/font in layout.tsx */
-  --font-heading: var(--font-heading);
-  --font-body: var(--font-body);
-  --font-motto: var(--font-motto);
+  /* Fonts - system font stacks matching original Google Fonts style */
+  --font-heading: "Playfair Display", "Georgia", "Times New Roman", serif;
+  --font-body: "Inter", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  --font-motto: "EB Garamond", "Garamond", "Georgia", "Times New Roman", serif;
 }
 
 @layer base {

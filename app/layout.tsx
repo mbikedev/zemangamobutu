@@ -1,29 +1,5 @@
 import type { Metadata } from "next";
-import { Playfair_Display, Inter, EB_Garamond } from "next/font/google";
 import "./globals.css";
-
-const playfairDisplay = Playfair_Display({
-  variable: "--font-heading",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["400", "700"],
-  preload: true,
-});
-
-const inter = Inter({
-  variable: "--font-body",
-  subsets: ["latin"],
-  display: "swap",
-  preload: true,
-});
-
-const ebGaramond = EB_Garamond({
-  variable: "--font-motto",
-  subsets: ["latin"],
-  display: "swap",
-  weight: ["400", "600"],
-  preload: true,
-});
 
 export const metadata: Metadata = {
   title: "Mobutu Zemanga | Chef d'Entreprises & Consultant International",
@@ -54,13 +30,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-      </head>
       <body
-        className={`${playfairDisplay.variable} ${inter.variable} ${ebGaramond.variable} antialiased`}
+        className="antialiased"
       >
         {children}
       </body>
