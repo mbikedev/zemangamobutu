@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Image from "next/image";
-import { Menu, Home, Mail, Sparkles } from "lucide-react";
+import { Menu, Home, Mail, Sparkles, User, Briefcase } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import {
   Sheet,
@@ -16,6 +16,8 @@ import {
 
 const navLinks = [
   { href: "#accueil", label: "Accueil", icon: Home },
+  { href: "#a-propos", label: "À propos", icon: User },
+  { href: "#services", label: "Services", icon: Briefcase },
   { href: "#contact", label: "Contact", icon: Mail },
 ];
 
